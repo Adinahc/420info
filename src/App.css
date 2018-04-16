@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.navbar-custom {
+      background-color: #A4D555;  
+      color: white;
+}
+
+.navbar-toggle {
+  background-color: white;
+  content: "Menu";
+}
+
+.table {
+  border: 0;
+  font-size: x-small;
+  margin: 0;
+  padding: 0;
+}
+
+.contentDiv {
+  margin-top: 70px;
+}
+
+.navbar-form {
+  padding: 0;
+  margin: 0;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  border: 0;
+  padding: 0;
+  padding-top: 8px;
+  margin: 0;
+}
+
+.form-control {
+  height: 20px;
+}
+
+a {
+  color: white;
+}
+
+a:hover { 
+  color: #4CDEF5;
+}
+
+.navLinkCell {
+  padding-top: 0px;
+}
+
+.panel-default>.panel-heading {
+  background-image: none;
+  background-color: #4CDEF5;   
+}
+
+.panel {
+  margin-bottom: 0px;
+}
